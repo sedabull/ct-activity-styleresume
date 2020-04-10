@@ -7,8 +7,14 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	vertical-align: baseline;
 }
 
+* {
+	font-family: rokkit, Arial, Helvetica, sans-serif;
+}
+
 html, body {
 	font-size: 16px;
+	font-family: lato, helvetica, arial, sans-serif;
+	background-color: #f3f3f3;
 }
 
 .clear {
@@ -44,6 +50,11 @@ p {
 
 #mainArea {
 	padding: 0 40px;
+	border-top: 2px solid #cf8a05;
+}
+
+#mainArea section:nth-child(1n+2) {
+	border-top: 1px solid #dedede;
 }
 
 #headshot {
@@ -60,6 +71,7 @@ p {
 
 #name {
 	float: left;
+	color: #181818;
 }
 
 #contactDetails {
@@ -74,6 +86,11 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
+	color: #444444;
+}
+
+#contactDetails ul li a {
+	color: #444444;
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -98,11 +115,13 @@ section:last-child {
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color: #444444;
 }
 
 .sectionTitle h1 {
@@ -113,12 +132,14 @@ section:last-child {
 .sectionContent h2 {
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	color: #181818;
 }
 
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
+	color: #444444;
 }
 
 .keySkills {
