@@ -1,0 +1,46 @@
+* {
+    font-family: Calibri;
+    box-sizing: border-box;
+}
+
+#headshot {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+
+#contactDetails {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+
+#name {
+    postion: absolute;
+    top: 0px;
+    text-align: center;
+}
+
+#name h1 {
+    margin: 0px;
+}
+
+section h1 {
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.sectionContent ul li {
+    margin-top: 5px;
+}
