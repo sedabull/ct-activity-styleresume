@@ -52,3 +52,8 @@ ul {
 .sectionContent ul li {
     margin-top: 5px;
 }
+
+.subDetails {
+    font-weight: 600;
+    text-decoration: underline;
+}
