@@ -3,25 +3,33 @@
     box-sizing: border-box;
 }
 
+.mainDetails {
+    border: 3px solid black;
+    background-color: lightgray;
+}
+
+.mainDetails div {
+    vertical-align: middle;
+}
+
 #headshot {
-    position: absolute;
-    top: 0px;
-    left: 8px;
+    height: 128px;
+    display: inline-block;
+    width: 15%;
 }
 
 #contactDetails {
-    position: absolute;
-    top: 0px;
-    right: 8px;
+    display: inline-block;
+    width: 15%;
 }
 
 #name {
-    postion: absolute;
-    top: 0px;
+    display: inline-block;
+    width: 69%;
     text-align: center;
 }
 
-#name h1 {
+#name h1, #name h2, #name ul {
     margin: 0px;
 }
 
